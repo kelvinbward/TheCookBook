@@ -4,10 +4,19 @@ Project to capture recipes, ingredients & more!
 Goals:
 - Inventory ingredients
 - Contains a list of cooking methods
-- Contains a list of recipes nested the cooking methods
+- Contains a list of recipes nesting the cooking methods *Top priority. 
+-- Blog, take notes of cooking**** 
+--- Rating system for the cooks...
+-- Sienna wants pictures....
+- notification system?
 - Includes a search for recipes with available ingredients based on inventory
 - Can generate a shopping list based off a recipe and existing ingredients
 - Can suggest alternative ingredients
+
+Tracking the project?
+- Issues & tags
+- Branch workflow
+
 
 Technologies to leverage:
 Front-end Development:
@@ -17,7 +26,7 @@ Back-end Development:
 Node.js, Express.js, and Nest.gs
 
 Database:
-MongoDB OR postgresql?
+MongoDB (NoSQL) - json static files to start? (.json per table, linter?)
 
 Authentication:
 JWT?
@@ -38,10 +47,9 @@ Local Setup:
 - wsl/ubuntu
 * Setup node js on wsl
 
-
 Sources:
 - https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
-
+- Copy me app... (reference example) https://play.google.com/store/apps/details?id=com.cmt.copymethat
 
 # Getting Started with Create React App
 

@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - mock-api
+
+  mock-api:
+    image: -v:latest
+    command: json-server --watch /app/mock-api/db.json --port 8000 --host 0.0.0.0
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./mock-api:/app/mock-api

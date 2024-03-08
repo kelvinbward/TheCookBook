@@ -1,126 +1,47 @@
-# TheCookBook Overview
-Project to capture recipes, ingredients & more! 
+Recipe Management System
+Overview
+The Recipe Management System is a web application designed to help cooking enthusiasts organize their recipes, explore new cooking methods, and manage their ingredient inventory. The system allows users to browse a curated collection of recipes, search for recipes based on available ingredients, generate shopping lists, and discover alternative ingredients.
 
-Goals:
-- Inventory ingredients
-- Contains a list of cooking methods
-- Contains a list of recipes nesting the cooking methods *Top priority. 
--- Blog, take notes of cooking**** 
---- Rating system for the cooks...
--- Sienna wants pictures....
-- notification system?
-- Includes a search for recipes with available ingredients based on inventory
-- Can generate a shopping list based off a recipe and existing ingredients
-- Can suggest alternative ingredients
+Project Goals
+Recipe Organization: The primary goal of the project is to provide a comprehensive list of recipes organized within cooking methods. Users can explore recipes nested within cooking methods, enhancing their cooking skills and culinary knowledge.
 
-Tracking the project?
-- Issues & tags
-- Branch workflow
+Ingredient Inventory: The system enables users to manage their ingredient inventory, keeping track of available ingredients and reducing food waste by planning meals based on existing ingredients.
 
+Search and Shopping Lists: Users can search for recipes based on available ingredients, facilitating meal planning and recipe discovery. Additionally, the system can generate shopping lists based on selected recipes and existing ingredients, simplifying the grocery shopping process.
 
-Technologies to leverage:
-Front-end Development:
-Begin by building a web application using React.js
+Features
+Recipe Management: Browse and explore a wide range of recipes organized within cooking methods. Create, edit, and delete recipes as needed.
 
-Back-end Development:
-Node.js, Express.js, and Nest.gs
+Ingredient Inventory: Keep track of available ingredients and manage ingredient quantities. Receive notifications for low-stock ingredients or expiration dates.
 
-Database:
-MongoDB (NoSQL) - json static files to start? (.json per table, linter?)
+Search and Filters: Search for recipes based on available ingredients, cooking methods, keywords, or dietary preferences. Filter recipes by cuisine, difficulty level, or cooking time.
 
-Authentication:
-JWT?
+Shopping Lists: Generate shopping lists based on selected recipes and existing ingredient inventory. Customize shopping lists and mark off purchased items.
 
-UI/UX:
-HTML/CSS/Javascript
+Alternative Ingredients: Discover alternative ingredients based on dietary restrictions, preferences, or ingredient availability. Substitute ingredients in recipes and explore new flavor combinations.
 
-Android/iOS:
-React Native
+Technologies Used
+Frontend Development: React.js, HTML, CSS, JavaScript
+Backend Development: Node.js, Express.js
+Database: MongoDB (planned for future integration)
+Mock API: JSON Server
+Deployment: Docker, Docker Compose
+Version Control: Git, GitHub
+Getting Started
+To get started with the Recipe Management System, follow these steps:
 
-Testing/CI CD:
-GitHub Actions
+1. Clone the repository to your local machine: git clone <repository-url>
+2. Install dependencies for the frontend and backend:
+- cd frontend
+- npm install
+- cd ../backend
+- npm install
+Start the frontend and backend services using Docker Compose:
+- docker-compose up
+Access the application in your web browser at http://localhost:3000.
+Contributing
 
-Hosting?
+Contributions to the Recipe Management System are welcome! To contribute, please fork the repository, make your changes, and submit a pull request. Be sure to follow the project's coding standards and guidelines.
 
-
-Local Setup:
-- wsl/ubuntu
-* Setup node js on wsl
-
-Sources:
-- https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
-- Copy me app... (reference example) https://play.google.com/store/apps/details?id=com.cmt.copymethat
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
+License
+TBD.... 
